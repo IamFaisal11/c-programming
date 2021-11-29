@@ -1,14 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 { int i, j;
-  clrscr();
    for(i=0;i<3;i++)
-    { for(j=0;j<=i;j++)
+    { for(j=0;j<=3;j++)
      {
      printf("%d,%d\t", i,j);
-     }
+     }  
+	 printf("\n");
     }
-   printf("\n");
-  getche();
 }
