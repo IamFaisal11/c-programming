@@ -22,7 +22,7 @@ printf("answer = %d");
       v=x/y;
       printf("answer = %d");
       }
- if(!v==1,!v==2,!v==3,!v==4)
+ else   
       printf("invalid option");
     
       }
